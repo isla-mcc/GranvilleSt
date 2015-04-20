@@ -1,0 +1,67 @@
+<html>
+<head>
+<meta charset="UTF-8"/>
+<title>Granville Street</title>
+<link href="Granville.css" rel="stylesheet" type="text/css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+</head>
+<script> 
+$(document).ready(
+    function(){
+        $("#circle1").click(
+            function(){
+                $("#circle1").css("background-color", "black");
+                
+            }
+        );
+    }
+);
+    </script>
+    
+    <script type="text/javascript">
+  WebFontConfig = {
+    google: { families: [ 'Raleway::latin' ] }
+  };
+  (function() {
+    var wf = document.createElement('script');
+    wf.src = ('https:' == document.location.protocol ? 'https' : 'http') +
+      '://ajax.googleapis.com/ajax/libs/webfont/1/webfont.js';
+    wf.type = 'text/javascript';
+    wf.async = 'true';
+    var s = document.getElementsByTagName('script')[0];
+    s.parentNode.insertBefore(wf, s);
+  })();</script>
+
+    <body>
+    <div id="head2">
+        <img id='logo' src='Assets/logo.png'><br><p id='titles'>Granville Street</p>
+    </div>
+        <div id='head'>
+            <nav>
+            	<label for="show-menu" class="show-menu">Menu</label>
+	            <input type="checkbox" id="show-menu" role="button">
+                <ul id='menu'>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="restaurants.html">Restaurants</a></li>
+                    <li><a href="bars.html">Bars</a></li>
+                    <li><a href="clubs.html">Clubs</a></li>
+                    <li><a href="events.html">Events</a></li>
+                </ul>
+            </nav>
+    </div>
+    <br>
+    <div id="middle">
+    <div class='circle' id='c1'><a href='bars.html'”><img src="Assets/Circle1-01.png"></a></div>
+    <div class='circle' id='c2'><a href='clubs.html'”><img src="Assets/Circle3-01.png"></a></div>
+    <div class='circle' id='c3'><a href='restaurants.html'”><img src="Assets/Circle2-01.png"></a></div>
+    <div class='circle' id='c4'><a href='events.html'”><img src="Assets/Circle4-01.png"></a></div>
+    </div> 
+</body>
+    <br><br><br>
+    <div id='foot'>
+        <a href='www.facebook.com'><img class='social' src='Assets/facebookicon.png'></a>
+        <a href='www.twitter.com'><img class='social' src='Assets/twittericon.png'></a>
+        <a href='www.instagram.com'><img class='social' src='Assets/instaicon.png'></a>
+    </div>
+
+</html>
